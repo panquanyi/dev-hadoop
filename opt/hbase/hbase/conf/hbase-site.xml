@@ -1,0 +1,30 @@
+<configuration>
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hbase.tmp.dir</name>
+        <value>./tmp</value>
+    </property>
+    <property>
+        <name>hbase.unsafe.stream.capability.enforce</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://master:9000/hbase</value>
+    </property>
+    <property>
+        <name>hbase.regionserver.handler.count</name>
+        <value>20</value>
+    </property>
+    <property>
+        <name>hbase.regionserver.maxlogs</name>
+        <value>64</value>
+    </property>
+    <property>
+        <name>hbase.hregion.max.filesize</name>
+        <value>10485760</value>
+    </property>
+</configuration>

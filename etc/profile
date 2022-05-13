@@ -1,0 +1,28 @@
+# hadoop
+export HADOOP_HOME=/opt/hadoop/hadoop
+export HADOOP_CONF_DIR=/opt/hadoop/hadoop/etc/hadoop
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+
+# hbase
+export HBASE_HOME=/opt/hbase/hbase
+export PATH=$HBASE_HOME/bin:$PATH
+
+# hive
+export HIVE_HOME=/opt/hive/hive
+export PATH=$HIVE_HOME/bin:$PATH
+
+#JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+
+# maven
+export MAVEN_HOME=/opt/maven/maven
+export PATH=$MAVEN_HOME/bin:$PATH
+
+# redis
+export REDIS_HOME=/opt/redis/redis
+export PATH=$REDIS_HOME/bin:$PATH
+
+# zookeeper
+export ZOOKEEPER_HOME=/opt/zookeeper/zookeeper
+export PATH=$ZOOKEEPER_HOME/bin:$PATH

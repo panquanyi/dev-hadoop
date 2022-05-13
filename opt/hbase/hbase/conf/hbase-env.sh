@@ -1,0 +1,4 @@
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
+export HBASE_OPTS="-XX:+UseConcMarkSweepGC"
+export HBASE_MASTER_OPTS="$HBASE_MASTER_OPTS"
+export HBASE_REGIONSERVER_OPTS="$HBASE_REGIONSERVER_OPTS"
